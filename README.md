@@ -1,25 +1,25 @@
-# rutapro
+# RutaPro
 
-Repositorio `rutapro` — preparado para `Chatbot-Rutapro`.
+A web app for studying driving theory. It combines traffic-sign practice, quizzes, gamified lessons and a chat assistant that answers common questions.
 
-Descripción:
-- Este repositorio fue recreado desde cero y subido al remoto `https://github.com/Castillo2308/Chatbot-Rutapro.git`.
+## Features
 
-Qué contiene:
-- `asistente_rutapro.py` — script auxiliar.
-- `RutaPro-knowledge.json` — datos de conocimiento.
+- **Traffic signs:** identify signs and open a detail card with what each one means and when it applies.
+- **Quizzes:** multiple-choice practice with instant feedback.
+- **Gamified learning:** lessons with progress and rewards.
+- **Chat assistant:** quick actions and guided answers inside the app.
+- **Python assistant (`asistente_rutapro.py`):** a command-line assistant that matches questions against a knowledge base (`RutaPro-knowledge.json`) using text normalization, token overlap and fuzzy string similarity.
 
-Comandos útiles:
-- Ver remotos: `git remote -v`
-- Forzar push a `main`: `git push -u origin main --force`
+## Tech stack
 
-  # Untitled
+React · TypeScript · Vite · Tailwind CSS · Radix UI · Python
 
-  This is a code bundle for Untitled. The original project is available at https://www.figma.com/design/Mh1nvDI3AowhcoVuIvt9Op/Untitled.
+## Getting started
 
-  ## Running the code
+```bash
+npm install
+npm run dev      # development server
+npm run build    # production build in dist/
+```
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+The UI was first designed in Figma and then developed as a React + Vite project.
